@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Row 0 -->
+
+    <TextView
+        android:id="@+id/timerDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="05:00"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <RadioButton
+        android:id="@+id/p03"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/p64"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toRightOf="@id/p63"
+        app:layout_constraintStart_toEndOf="@id/p63"
+        app:layout_constraintTop_toBottomOf="@id/p54" />
+
+    <RadioButton
+        android:id="@+id/p21"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@id/p22"
+        app:layout_constraintRight_toLeftOf="@id/p22"
+        app:layout_constraintTop_toBottomOf="@id/p12" />
+
+    <RadioButton
+        android:id="@+id/p26"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toRightOf="@id/p25"
+        app:layout_constraintStart_toEndOf="@id/p25"
+        app:layout_constraintTop_toBottomOf="@id/p14" />
+
+    <RadioButton
+        android:id="@+id/p63"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p53" />
+
+    <RadioButton
+        android:id="@+id/p23"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/p13" />
+
+    <RadioButton
+        android:id="@+id/p22"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@id/p23"
+        app:layout_constraintRight_toLeftOf="@id/p23"
+        app:layout_constraintTop_toBottomOf="@id/p12" />
+
+    <RadioButton
+        android:id="@+id/p62"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@id/p63"
+        app:layout_constraintRight_toLeftOf="@id/p63"
+        app:layout_constraintTop_toBottomOf="@id/p52" />
+
+    <RadioButton
+        android:id="@+id/p32"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@id/p33"
+        app:layout_constraintRight_toLeftOf="@id/p33"
+        app:layout_constraintTop_toBottomOf="@id/p22" />
+
+    <RadioButton
+        android:id="@+id/p04"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintLeft_toRightOf="@id/p03"
+        app:layout_constraintStart_toEndOf="@id/p03"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/p40"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@id/p41"
+        app:layout_constraintRight_toLeftOf="@id/p41"
+        app:layout_constraintTop_toBottomOf="@id/p32" />
+
+    <RadioButton
+        android:id="@+id/p54"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toRightOf="@id/p53"
+        app:layout_constraintStart_toEndOf="@id/p53"
+        app:layout_constraintTop_toBottomOf="@id/p44" />
+
+    <RadioButton
+        android:id="@+id/p34"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toRightOf="@id/p33"
+        app:layout_constraintStart_toEndOf="@id/p33"
+        app:layout_constraintTop_toBottomOf="@id/p24" />
+
+    <RadioButton
+        android:id="@+id/p53"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p43" />
+
+    <RadioButton
+        android:id="@+id/p42"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@id/p43"
+        app:layout_constraintRight_toLeftOf="@id/p43"
+        app:layout_constraintTop_toBottomOf="@id/p32" />
+
+    <RadioButton
+        android:id="@+id/p25"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toRightOf="@id/p24"
+        app:layout_constraintStart_toEndOf="@id/p24"
+        app:layout_constraintTop_toBottomOf="@id/p14" />
+
+    <RadioButton
+        android:id="@+id/p52"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@id/p53"
+        app:layout_constraintRight_toLeftOf="@id/p53"
+        app:layout_constraintTop_toBottomOf="@id/p42" />
+
+    <RadioButton
+        android:id="@+id/p20"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@id/p21"
+        app:layout_constraintRight_toLeftOf="@id/p21"
+        app:layout_constraintTop_toBottomOf="@id/p12" />
+
+    <RadioButton
+        android:id="@+id/p14"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintLeft_toRightOf="@id/p13"
+        app:layout_constraintStart_toEndOf="@id/p13"
+        app:layout_constraintTop_toBottomOf="@id/p04" />
+
+    <RadioButton
+        android:id="@+id/p44"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toRightOf="@id/p43"
+        app:layout_constraintStart_toEndOf="@id/p43"
+        app:layout_constraintTop_toBottomOf="@id/p34" />
+
+    <RadioButton
+        android:id="@+id/p35"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toRightOf="@id/p34"
+        app:layout_constraintStart_toEndOf="@id/p34"
+        app:layout_constraintTop_toBottomOf="@id/p24" />
+
+    <RadioButton
+        android:id="@+id/p43"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/p33" />
+
+    <RadioButton
+        android:id="@+id/p45"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toRightOf="@id/p44"
+        app:layout_constraintStart_toEndOf="@id/p44"
+        app:layout_constraintTop_toBottomOf="@id/p34" />
+
+    <RadioButton
+        android:id="@+id/p13"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p03" />
+
+    <RadioButton
+        android:id="@+id/p46"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toRightOf="@id/p45"
+        app:layout_constraintStart_toEndOf="@id/p45"
+        app:layout_constraintTop_toBottomOf="@id/p34" />
+
+    <RadioButton
+        android:id="@+id/p24"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toRightOf="@id/p23"
+        app:layout_constraintStart_toEndOf="@id/p23"
+        app:layout_constraintTop_toBottomOf="@id/p14" />
+
+    <RadioButton
+        android:id="@+id/p12"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toStartOf="@id/p13"
+        app:layout_constraintRight_toLeftOf="@id/p13"
+        app:layout_constraintTop_toBottomOf="@id/p02" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/pieces_remain"
+        app:layout_constraintBottom_toTopOf="@+id/p20"
+        app:layout_constraintEnd_toStartOf="@+id/p02"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
+
+    <RadioButton
+        android:id="@+id/p33"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/p23" />
+
+    <RadioButton
+        android:id="@+id/p36"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintLeft_toRightOf="@id/p35"
+        app:layout_constraintStart_toEndOf="@id/p35"
+        app:layout_constraintTop_toBottomOf="@id/p24" />
+
+    <TextView
+        android:id="@+id/remaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:text="32"
+        app:layout_constraintBottom_toTopOf="@+id/p20"
+        app:layout_constraintEnd_toStartOf="@+id/p02"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <RadioButton
+        android:id="@+id/p41"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@id/p42"
+        app:layout_constraintRight_toLeftOf="@id/p42"
+        app:layout_constraintTop_toBottomOf="@id/p32" />
+
+    <RadioButton
+        android:id="@+id/p02"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toStartOf="@id/p03"
+        app:layout_constraintRight_toLeftOf="@id/p03"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Row 1 -->
+
+    <!-- Row 2 -->
+
+    <!-- Row 3 -->
+
+    <RadioButton
+        android:id="@+id/p31"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@id/p32"
+        app:layout_constraintRight_toLeftOf="@id/p32"
+        app:layout_constraintTop_toBottomOf="@id/p22" />
+
+    <RadioButton
+        android:id="@+id/p30"
+        style="@style/SCeltaRadioButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@id/p31"
+        app:layout_constraintRight_toLeftOf="@id/p31"
+        app:layout_constraintTop_toBottomOf="@id/p22" />
+
+    <!-- Row 4 -->
+
+    <!-- Row 5 -->
+
+    <!-- Row 6 -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

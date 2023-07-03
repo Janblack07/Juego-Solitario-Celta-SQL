@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="app_name">Solitario Celta</string>
+    <string name="aboutText">Acerca de</string>
+    <string name="aboutMessage">El juego consiste en ir comiendo piezas
+    (en horizontal o en vertical) hasta conseguir que sólo quede una pieza
+    en el centro. En cada movimiento, la pieza puede saltar solo una pieza.</string>
+    <string name="firstCategoryPrefTitle">Datos personales</string>
+    <string name="editTextPrefTitle">Nombre del jugador</string>
+    <string name="editTextPrefSummary">Pulse para teclear el nombre del jugador</string>
+    <string name="secondCategoryPrefTitle">Ajustes del juego</string>
+    <string name="preferencesText">Ajustes</string>
+    <string name="restart">Reiniciar juego</string>
+    <string name="showBestPunctuations">Mejores puntuaciones</string>
+    <string name="pieces_remain">Fichas</string>
+
+    <!-- Diálogo Final -->
+    <string name="txtDialogoFinalTitulo">Fin del juego</string>
+    <string name="txtDialogoFinalPregunta">¿Quiere jugar otra partida?</string>
+    <string name="txtDialogoFinalAfirmativo">Sí</string>
+    <string name="txtDialogoFinalNegativo">No</string>
+
+    <!-- Save Game -->
+    <string name="save_file">savedData.txt</string>
+    <string name="slot_1">Ranura 1</string>
+    <string name="slot_2">Ranura 2</string>
+    <string name="slot_3">Ranura 3</string>
+
+    <!-- Otros diálogos -->
+    <string name="save_game">Guardar Partida</string>
+    <string name="resume_game">Recuperar partida</string>
+    <string name="resume_message">¿Desea recuperar la partida aunque haya empezado una nueva?</string>
+    <string name="delete_information">Borrar informacion</string>
+    <string name="delete_information_message">¿Desea borrar la informacion del ranking?</string>
+    <string name="delete_from_db">Borrar datos</string>
+
+
+    <!-- Preferencias -->
+    <string name="playerName_key">playerName</string>
+
+    <!-- NoPlayer Fragment -->
+    <string name="player_name">Nombre del jugador</string>
+    <string name="player_name_message">¿Que nombre de jugador desea usar?</string>
+    <string name="save">Guardar</string>
+
+    <!-- Column Names -->
+    <string name="best_punctuations">Mejores puntuaciones</string>
+    <string name="column_name_id">Id</string>
+    <string name="column_name_player_name">Nombre</string>
+    <string name="column_name_date_time">Fecha de la partida</string>
+    <string name="column_name_missing_pieces">Piezas</string>
+
+
+
+
+</resources>

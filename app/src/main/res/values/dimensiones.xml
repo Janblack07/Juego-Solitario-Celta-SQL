@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+
+        <!-- Tamaño del botón -->
+        <dimen name="button_side">36dp</dimen>
+        <dimen name="margin_top">16dp</dimen>
+
+    </resources>

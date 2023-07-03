@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+
+
+    <item
+        android:id="@+id/restart"
+        android:icon="@drawable/baseline_restart_alt_24"
+        android:title="@string/restart"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/save_game"
+        android:icon="@drawable/baseline_save_24"
+        android:title="@string/save_game"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/save_game_1"
+                android:title="@string/slot_1" />
+            <item
+                android:id="@+id/save_game_2"
+                android:title="@string/slot_2" />
+            <item
+                android:id="@+id/save_game_3"
+                android:title="@string/slot_3" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/resume_game"
+        android:orderInCategory="10"
+        android:title="@string/resume_game">
+        <menu>
+            <item
+                android:id="@+id/resume_game_1"
+                android:title="@string/slot_1" />
+            <item
+                android:id="@+id/resume_game_2"
+                android:title="@string/slot_2" />
+            <item
+                android:id="@+id/resume_game_3"
+                android:title="@string/slot_3" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/bestPunctuations"
+        android:orderInCategory="30"
+        android:title="@string/showBestPunctuations"
+
+        />
+
+    <item
+        android:id="@+id/preferences"
+        android:icon="@drawable/baseline_settings_24"
+        android:orderInCategory="100"
+        android:title="@string/preferencesText" />
+    <item
+        android:id="@+id/menuAbout"
+        android:icon="@drawable/baseline_info_24"
+        android:orderInCategory="200"
+        android:title="@string/aboutText" />
+
+</menu>
